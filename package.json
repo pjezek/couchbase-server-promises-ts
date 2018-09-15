@@ -1,0 +1,22 @@
+{
+  "name": "couchbase-server-promises-ts",
+  "version": "1.0.0",
+  "description": "Promise aware version of the couchbase module. Based on eldimious/couchbase-server-promises but written in TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@types/couchbase": "2.4.1",
+    "couchbase": "^2.5.1"
+  }
+}
