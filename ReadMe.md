@@ -8,15 +8,15 @@ It's bases on [couchbase-server-promises](https://github.com/eldimious/couchbase
 ```typescript
 const exampleConfig = {
   cluster: 'couchbase://127.0.0.1:8091',
+  username: 'user',
+  password: 'pass',
   buckets: [
     {
       bucket: 'customers',
-      password: '123',
       operationTimeout: 1500,
     },
     {
       bucket: 'stats',
-      password: '123',
     },
     {
       bucket: 'users',
